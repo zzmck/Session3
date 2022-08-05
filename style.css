@@ -137,7 +137,6 @@
   .main_contenor {
     margin-right: auto;
     margin-left: auto;
-    min-width: 550px;
   }
 }
 * {
@@ -504,7 +503,6 @@ figure {
 
 .adaptativ_border {
   object-position: 0px -230px;
-  min-width: 100%;
 }
 
 #heart-shape-gradient {
