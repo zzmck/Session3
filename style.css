@@ -147,10 +147,6 @@
   font-family: "Roboto";
 }
 
-html {
-  min-width: 590px;
-}
-
 .loader-container {
   position: fixed;
   background: #F1F1F1;
