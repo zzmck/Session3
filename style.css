@@ -133,12 +133,6 @@
   font-family: "Roboto";
 }
 
-@media (max-width: 550px) {
-  .main_contenor {
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -224,7 +218,7 @@ figure {
   flex-wrap: wrap;
 }
 .header_logo {
-  height: 130px;
+  height: 110px;
   margin-top: 0px;
   padding-top: 0px;
   margin-bottom: 5px;
@@ -279,7 +273,7 @@ figure {
 }
 .header_search_title {
   width: 100%;
-  font-size: 39px;
+  font-size: 27px;
   font-weight: bold;
   padding-left: 100px;
   padding-right: 100px;
@@ -293,7 +287,7 @@ figure {
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 40px;
-  font-size: 29px;
+  font-size: 21px;
   font-weight: lighter;
   text-align: center;
   background-color: #f7f7f7;
@@ -307,7 +301,7 @@ figure {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 25px;
+  font-size: 21px;
   border-radius: 50px;
   margin-bottom: 70px;
   background-color: #f7f7f7;
@@ -337,7 +331,7 @@ figure {
 }
 .menu_title {
   padding-left: 40px;
-  font-size: 40px;
+  font-size: 21px;
   padding-bottom: 40px;
   padding-top: 80px;
 }
@@ -395,7 +389,7 @@ figure {
 .menu_filters_button_text {
   display: block;
   margin-right: 10px;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -425,7 +419,7 @@ figure {
   /*@include flex-center(column);*/
   padding-left: 40px;
   padding-top: 80px;
-  font-size: 40px;
+  font-size: 21px;
   margin-bottom: 20px;
 }
 .section_cards_contenor {
@@ -440,7 +434,7 @@ figure {
   justify-items: center;
   justify-content: space-around;
   width: 100%;
-  max-width: 1200px;
+  max-width: 930px;
   padding-bottom: 80px;
 }
 .section_article {
@@ -452,7 +446,7 @@ figure {
   padding: 0px;
   margin: 30px;
   margin-bottom: 0px;
-  width: 500px;
+  width: 400px;
   box-shadow: 0px 0px 20px #d2d2d2;
   border-radius: 20px;
 }
@@ -462,7 +456,7 @@ figure {
 }
 .section_article__images_restaurants {
   width: 100%;
-  height: 250px;
+  height: 200px;
   object-fit: cover;
   object-position: bottom;
   border-top-right-radius: 20px;
@@ -475,22 +469,22 @@ figure {
   width: 100%;
 }
 .section_article__text_restaurants_details {
-  width: 70%;
+  width: 75%;
 }
 .section_article__text_restaurants_details_name {
-  font-size: 28px;
+  font-size: 21px;
   font-weight: bold;
   padding-top: 20px;
   padding-left: 20px;
 }
 .section_article__text_restaurants_details_city {
-  font-size: 27px;
+  font-size: 20px;
   padding-top: 9px;
   padding-left: 20px;
   padding-bottom: 5px;
 }
 .section_article__text_restaurants_heart {
-  width: 30%;
+  width: 25%;
   height: 60px;
   display: flex;
   flex-basis: auto;
@@ -502,7 +496,7 @@ figure {
 }
 
 .adaptativ_border {
-  object-position: 0px -230px;
+  object-position: 0px -183px;
 }
 
 #heart-shape-gradient {
@@ -594,12 +588,12 @@ figure {
   display: block;
   position: relative;
   top: 20px;
-  left: 171px;
-  height: 50px;
-  width: 119px;
-  font-size: 22px;
+  left: 120px;
+  height: 47px;
+  width: 113px;
+  font-size: 21px;
   text-align: center;
-  padding-top: 12px;
+  padding-top: 9px;
   font-weight: bold;
 }
 
