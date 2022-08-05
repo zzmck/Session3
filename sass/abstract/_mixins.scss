@@ -1,0 +1,12 @@
+@mixin container($width) {
+    width: clamp(500px, #{$width}, 1200px);
+    margin: 0 auto;
+}
+
+@mixin flex-center($direction) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
