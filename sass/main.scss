@@ -11,6 +11,10 @@
         box-sizing: border-box;
         font-family: 'Roboto';
     }
+    
+    .visually-hidden {
+        display: none;
+    }
     /*Largeur minimum de la page*/
     /*Minimum page width*/
     
@@ -131,7 +135,12 @@
     }
     /*Restaurant pages Details > Arrow return*/
     
-    article>a,
+    article>a {
+        @include height_width(100%, 100%);
+        text-decoration: none;
+        color: $color_black;
+    }
+    
     .header_restaurant_arrow>a {
         @include height_width(100%, 100%);
         text-decoration: none;
@@ -203,7 +212,10 @@
                 @include height_width(280px, 100%);
                 background-color: $color_grey_lighten_47;
                 &_text {
-                    @include flex-direction-align-justify-wrap(row, none, space-between, wrap);
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
                     @include padding(30px, 0px, 0, 14px);
                     position: relative;
                     bottom: 30px;
@@ -238,6 +250,7 @@
             overflow: hidden;
             text-overflow: ellipsis;
         }
+        //&_list {}
     }
     /*SECTION CARDS*/
     
@@ -271,7 +284,7 @@
             max-width: 435px;
             &__pictures {
                 @include height_width(70%, 100%);
-                display: flex;
+                //display: flex;
                 position: relative;
                 &_restaurants {
                     @include height_width(100%, 100%);
@@ -297,6 +310,11 @@
                         @include text($text_l, $text_family_secondary, normal, left);
                     }
                 }
+                &>a {
+                    width: 100%;
+                    text-decoration: none;
+                    color: black;
+                }
                 &_heart {
                     @include flex-direction-align-justify-wrap(column, center, center, nowrap);
                     @include height_width(25px, 25px);
@@ -307,7 +325,10 @@
                 }
             }
             &__new {
-                @include flex-direction-align-justify-wrap(none, center, center, nowrap);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: nowrap;
                 @include margin(15px, 0, 15px, 0);
                 @include height_width(26px, 67px);
                 @include text($text_xs, $text_family_secondary, bold, center);
@@ -344,7 +365,9 @@
             }
             &_title {
                 /*BLOC RESTAURANT > MENU > TITLE*/
-                @include text($text_restaurant_l, "Roboto", normal, none);
+                font-size: $text_restaurant_l;
+                font-family: "Roboto";
+                font-weight: normal;
                 text-transform: uppercase;
                 line-height: 32px;
                 border-bottom: 3px solid #99E2D0;
@@ -422,13 +445,13 @@
                 white-space: nowrap;
                 overflow: hidden;
                 text-overflow: ellipsis;
-                &>h4 {
+                &>label>h4 {
                     white-space: nowrap;
                     overflow: hidden;
                     text-overflow: ellipsis;
                     font-size: $text_restaurant_l;
                 }
-                &>p {
+                &>label>p {
                     white-space: nowrap;
                     overflow: hidden;
                     text-overflow: ellipsis;
@@ -511,7 +534,7 @@
             font-weight: bold;
             background: linear-gradient(0deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
             cursor: pointer;
-            background-clip: text;
+            background-clip: content-box;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             -moz-background-clip: text;
@@ -525,7 +548,7 @@
             content: "\f004";
             font-weight: normal;
             background: linear-gradient(0deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
-            background-clip: text;
+            background-clip: content-box;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             -moz-background-clip: text;
@@ -557,32 +580,6 @@
                 font-family: "Font Awesome 5 Free";
                 content: '\f058';
             }
-        }
-    }
-    
-    @for $i from 1 through 10 {
-        #list_menu_selection#{$i}:checked~.list_menu>.list_menu_btn {
-            width: 100px;
-            background: $tertiary_color;
-            transition: 0.6s;
-            .list_menu_btn_icon {
-                @include height_width(auto, 20px);
-                font-size: 20px;
-                font-weight: bold;
-                color: $color_white;
-                background-color: $tertiary_color;
-                margin: auto;
-                border-radius: 50%;
-                -webkit-animation: rotate-center 0.6s ease-in-out both;
-                animation: rotate-center 0.6s ease-in-out both;
-                &::before {
-                    font-family: "Font Awesome 5 Free";
-                    content: '\f058';
-                }
-            }
-        }
-        #list_menu_selection#{$i} {
-            display: none;
         }
     }
     /*MEDIA FOR TABLET*/
