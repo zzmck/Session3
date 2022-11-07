@@ -69,13 +69,13 @@ https://zzmck.github.io/Session2
 **Page d’accueil**
 
 <p align="center">
-  <img align="center" width="50%" alt="page accueil" src="https://serveursbot.net/projet2/images/rendu_mobile.jpg"/>
+  <img align="center" width="50%" alt="page accueil" src="https://zupimages.net/viewer.php?id=22/45/mjnj.jpg"/>
 </p>
 
 **Page des menus**
 
 <p align="center">
-  <img align="center" width="50%" alt="pages menus" src="https://serveursbot.net/projet2/images/rendu_mobile.jpg"/>
+  <img align="center" width="50%" alt="pages menus" src="https://zupimages.net/viewer.php?id=22/45/wi79.jpg"/>
 </p>
 
 ### Rendu desktop :
@@ -84,13 +84,13 @@ https://zzmck.github.io/Session2
 **Page d’accueil**
 
 <p align="center">
-  <img align="center" width="50%" alt="page accueil" src="https://serveursbot.net/projet2/images/rendu_desktop.jpg"/>
+  <img align="center" width="50%" alt="page accueil" src="https://zupimages.net/viewer.php?id=22/45/449a.jpg"/>
 </p>
 
 **Page des menus**
 
 <p align="center">
-  <img align="center" width="50%" alt="page des menus" src="https://serveursbot.net/projet2/images/rendu_desktop.jpg"/>
+  <img align="center" width="50%" alt="page des menus" src="https://zupimages.net/viewer.php?id=22/45/p9ft.jpg"/>
 </p>
 
 ### W3C Validator CSS :
@@ -98,7 +98,7 @@ https://zzmck.github.io/Session2
 **style.css (généré par prépocesseur SASS)**
 
 <p align="center">
-  <img align="center" width="50%" alt="validator w3C css" src="https://serveursbot.net/projet2/images/css_validator_checked.jpg"/>
+  <img align="center" width="50%" alt="validator w3C css" src="https://zupimages.net/viewer.php?id=22/45/3yos.jpg"/>
 </p>
 
 ### W3C Validator HTML :
@@ -106,31 +106,31 @@ https://zzmck.github.io/Session2
 **Accueil.html**
 
 <p align="center">
-  <img align="center" width="50%" alt="validator w3C accueil" src="https://serveursbot.net/projet2/images/css_validator_checked.jpg"/>
+  <img align="center" width="50%" alt="validator w3C accueil" src="https://zupimages.net/viewer.php?id=22/45/yawb.jpg"/>
 </p>
 
 **menu_la_palette_du_gout.html**
 
 <p align="center">
-  <img align="center" width="50%" alt="validator w3C menu1" src="https://serveursbot.net/projet2/images/css_validator_checked.jpg"/>
+  <img align="center" width="50%" alt="validator w3C menu1" src="https://zupimages.net/viewer.php?id=22/45/e0yn.jpg"/>
 </p>
 
 **menu_la_note_enchantee.html**
 
 <p align="center">
-  <img align="center" width="50%" alt="validator w3C menu2" src="https://serveursbot.net/projet2/images/css_validator_checked.jpg"/>
+  <img align="center" width="50%" alt="validator w3C menu2" src="https://zupimages.net/viewer.php?id=22/45/y499.jpg"/>
 </p>
 
 **menu_a_la_francaise.html**
 
 <p align="center">
-  <img align="center" width="50%" alt="validator w3C menu3" src="https://serveursbot.net/projet2/images/css_validator_checked.jpg"/>
+  <img align="center" width="50%" alt="validator w3C menu3" src="https://zupimages.net/viewer.php?id=22/45/zp7z.jpg"/>
 </p>
 
 **menu_le_delice_des_sens.html**
 
 <p align="center">
-  <img align="center" width="50%" alt="validator w3C menu4" src="https://serveursbot.net/projet2/images/css_validator_checked.jpg"/>
+  <img align="center" width="50%" alt="validator w3C menu4" src="https://zupimages.net/viewer.php?id=22/45/lgtr.jpg"/>
 </p>
 
 
