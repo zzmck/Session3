@@ -126,7 +126,7 @@ https://zzmck.github.io/Session2
 <p align="center">
   <img align="center" width="50%" alt="validator w3C menu3" src="https://zupimages.net/viewer.php?id=22/45/zp7z.jpg"/>
 </p>
-<a href="https://zupimages.net/viewer.php?id=22/45/zp7z.jpg"><img src="https://zupimages.net/up/22/45/zp7z.jpg" alt="" /></a>
+<a href="https://zupimages.net/viewer.php?id=22/45/zp7z.jpg"><img src="https://zupimages.net/up/22/45/zp7z.jpg" align="center" width="50%" alt="validator w3C menu3"  /></a>
 
 **menu_le_delice_des_sens.html**
 
