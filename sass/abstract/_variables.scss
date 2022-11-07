@@ -6,6 +6,7 @@ $color_new_darken:darken($tertiary_color, 40%);
 $color_black: black;
 $color_white:white;
 $color_grey:grey;
+$color_grey_lighten_10:lighten($color_grey, 10%);
 $color_grey_lighten_25:lighten($color_grey, 25%);
 $color_grey_lighten_30:lighten($color_grey, 30%);
 $color_grey_lighten_35:lighten($color_grey, 35%);

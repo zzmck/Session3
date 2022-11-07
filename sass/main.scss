@@ -98,6 +98,7 @@
                 box-shadow: 0px 2px 8px $color_grey_lighten_30;
                 &:hover {
                     background-image: linear-gradient($primary_color, $secondary_color);
+                    box-shadow: 0px 2px 8px $color_grey_lighten_10;
                     cursor: pointer;
                 }
                 &_background {
@@ -178,6 +179,7 @@
                 box-shadow: 3px 3px 10px $color_grey_lighten_30;
                 &:hover {
                     background-color: $color_button_hover;
+                    box-shadow: 0px 2px 8px $color_grey_lighten_10;
                     cursor: pointer;
                     .fa-solid {
                         color: $primary_color;
@@ -345,6 +347,9 @@
             &__adaptativ_border {
                 object-position: 100% 60%;
             }
+            &:hover {
+                box-shadow: 0px 2px 8px $color_grey_lighten_10;
+            }
         }
     }
     /*BLOC FOR RESTAURANT PAGE DETAILS*/
@@ -498,6 +503,10 @@
                 &_text {
                     @include text($special_button_filter_text, $text_family_secondary, initial, left);
                     color: $color_white;
+                    &>a {
+                        text-decoration: none;
+                        color: white;
+                    }
                 }
                 &_icons {
                     @include height_width(auto, 20px);
@@ -525,29 +534,20 @@
             font-family: "Font Awesome 5 Free";
             content: "\f004";
             font-weight: normal;
-            transition: color 1s ease-out;
             .fa-regular {
                 display: none;
             }
-        }
-        &:hover::before {
-            font-weight: bold;
-            background: linear-gradient(0deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
-            cursor: pointer;
-            background-clip: content-box;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            -moz-background-clip: text;
-            -moz-text-fill-color: transparent;
         }
     }
     
     //Heart code > creation for 5 heart
     @for $i from 1 through 5 {
+        #heart_check#{$i}:checked~.fa-heart::before {
+            font-weight: bold;
+        }
         #heart_check#{$i}:checked~.fa-heart {
-            font-family: "Font Awesome 5 Free";
-            content: "\f004";
-            font-weight: normal;
+            animation: hoverheart 0.1s ease-in;
+            font-weight: bold;
             background: linear-gradient(0deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
             background-clip: content-box;
             -webkit-background-clip: text;

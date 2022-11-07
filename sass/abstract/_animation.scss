@@ -99,6 +99,16 @@
     }
 }
 
+//Animation heart
+@keyframes hoverheart {
+    from {
+        font-size: 15px;
+    }
+    to {
+        font-size: 25px;
+    }
+}
+
 //MENU SELECTION KEYFRAMES
 @keyframes rotate-center {
     0% {
