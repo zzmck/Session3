@@ -69,13 +69,13 @@ https://zzmck.github.io/Session3-website/Accueil.html
 **Page d’accueil**
 
 <p align="center">
-<a href="https://zupimages.net/viewer.php?id=22/45/mjnj.jpg" target="blank"><img src="https://zupimages.net/up/22/45/mjnj.jpg" align="center" width="50%" alt="accueil"  /></a>
+<a href="https://zupimages.net/viewer.php?id=22/45/mjnj.jpg" target="blank"><img src="https://zupimages.net/up/22/45/mjnj.jpg" align="center" width="20%" alt="accueil"  /></a>
 </p>
 
 **Page des menus**
 
 <p align="center">
-<a href="https://zupimages.net/viewer.php?id=22/45/wi79.jpg" target="blank"><img src="https://zupimages.net/up/22/45/wi79.jpg" align="center" width="50%" alt="menu"  /></a>
+<a href="https://zupimages.net/viewer.php?id=22/45/wi79.jpg" target="blank"><img src="https://zupimages.net/up/22/45/wi79.jpg" align="center" width="20%" alt="menu"  /></a>
 </p>
 
 ### Rendu desktop :
