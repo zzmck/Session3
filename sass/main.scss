@@ -11,6 +11,8 @@
         box-sizing: border-box;
         font-family: 'Roboto';
     }
+    /*Titre cachés*/
+    /*Title hidden*/
     
     .visually-hidden {
         display: none;
@@ -250,7 +252,6 @@
             overflow: hidden;
             text-overflow: ellipsis;
         }
-        //&_list {}
     }
     /*SECTION CARDS*/
     
@@ -278,13 +279,11 @@
             @include flex-direction-align-justify-wrap(column, center, flex-start, nowrap);
             @include height_width(220px, 90%);
             @include margin(26px, 0, 0, 0);
-            /*max-width: 530px; */
             box-shadow: 0px 0px 20px $color_grey_lighten_25;
             border-radius: 20px;
             max-width: 435px;
             &__pictures {
                 @include height_width(70%, 100%);
-                //display: flex;
                 position: relative;
                 &_restaurants {
                     @include height_width(100%, 100%);
@@ -445,13 +444,13 @@
                 white-space: nowrap;
                 overflow: hidden;
                 text-overflow: ellipsis;
-                &>label>h4 {
+                &>h4 {
                     white-space: nowrap;
                     overflow: hidden;
                     text-overflow: ellipsis;
                     font-size: $text_restaurant_l;
                 }
-                &>label>p {
+                &>p {
                     white-space: nowrap;
                     overflow: hidden;
                     text-overflow: ellipsis;
@@ -510,6 +509,7 @@
         }
     }
     
+    //location icon
     .fa-location-dot {
         font-size: $text_m;
         padding-left: 4px;
@@ -542,6 +542,7 @@
         }
     }
     
+    //Heart code > creation for 5 heart
     @for $i from 1 through 5 {
         #heart_check#{$i}:checked~.fa-heart {
             font-family: "Font Awesome 5 Free";
