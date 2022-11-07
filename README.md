@@ -62,20 +62,20 @@ Les effets accessibles au clic ou au survol sont visibles sur la maquette. Ils d
 
 
 ### Test sur Github en ligne :
-https://zzmck.github.io/Session2
+https://zzmck.github.io/Session3-website/Accueil.html
 
 ### Rendu mobile :
 
 **Page d’accueil**
 
 <p align="center">
-  <img align="center" width="50%" alt="page accueil" src="https://zupimages.net/viewer.php?id=22/45/mjnj.jpg"/>
+<a href="https://zupimages.net/viewer.php?id=22/45/mjnj.jpg" target="blank"><img src="https://zupimages.net/up/22/45/mjnj.jpg" align="center" width="50%" alt="accueil"  /></a>
 </p>
 
 **Page des menus**
 
 <p align="center">
-  <img align="center" width="50%" alt="pages menus" src="https://zupimages.net/viewer.php?id=22/45/wi79.jpg"/>
+<a href="https://zupimages.net/viewer.php?id=22/45/wi79.jpg" target="blank"><img src="https://zupimages.net/up/22/45/wi79.jpg" align="center" width="50%" alt="menu"  /></a>
 </p>
 
 ### Rendu desktop :
@@ -84,13 +84,13 @@ https://zzmck.github.io/Session2
 **Page d’accueil**
 
 <p align="center">
-  <img align="center" width="50%" alt="page accueil" src="https://zupimages.net/viewer.php?id=22/45/449a.jpg"/>
+<a href="https://zupimages.net/viewer.php?id=22/45/449a.jpg" target="blank"><img src="https://zupimages.net/up/22/45/449a.jpg" align="center" width="50%" alt="accueil"  /></a>
 </p>
 
 **Page des menus**
 
 <p align="center">
-  <img align="center" width="50%" alt="page des menus" src="https://zupimages.net/viewer.php?id=22/45/p9ft.jpg"/>
+<a href="https://zupimages.net/viewer.php?id=22/45/p9ft.jpg" target="blank"><img src="https://zupimages.net/up/22/45/p9ft.jpg" align="center" width="50%" alt="menu"  /></a>
 </p>
 
 ### W3C Validator CSS :
@@ -98,7 +98,7 @@ https://zzmck.github.io/Session2
 **style.css (généré par prépocesseur SASS)**
 
 <p align="center">
-  <img align="center" width="50%" alt="validator w3C css" src="https://zupimages.net/viewer.php?id=22/45/3yos.jpg"/>
+<a href="https://zupimages.net/viewer.php?id=22/45/3yos.jpg" target="blank"><img src="https://zupimages.net/up/22/45/3yos.jpg" align="center" width="50%" alt="validator w3C css"  /></a>
 </p>
 
 ### W3C Validator HTML :
@@ -106,32 +106,31 @@ https://zzmck.github.io/Session2
 **Accueil.html**
 
 <p align="center">
-  <img align="center" width="50%" alt="validator w3C accueil" src="https://zupimages.net/viewer.php?id=22/45/yawb.jpg"/>
+<a href="https://zupimages.net/viewer.php?id=22/45/yawb.jpg" target="blank"><img src="https://zupimages.net/up/22/45/yawb.jpg" align="center" width="50%" alt="validator w3C accueil"  /></a>
 </p>
 
 **menu_la_palette_du_gout.html**
 
 <p align="center">
-  <img align="center" width="50%" alt="validator w3C menu1" src="https://zupimages.net/viewer.php?id=22/45/e0yn.jpg"/>
+<a href="https://zupimages.net/viewer.php?id=22/45/e0yn.jpg" target="blank"><img src="https://zupimages.net/up/22/45/e0yn.jpg" align="center" width="50%" alt="validator w3C menu1"  /></a>
 </p>
 
 **menu_la_note_enchantee.html**
 
 <p align="center">
-  <img align="center" width="50%" alt="validator w3C menu2" src="https://zupimages.net/viewer.php?id=22/45/y499.jpg"/>
+<a href="https://zupimages.net/viewer.php?id=22/45/y499.jpg" target="blank"><img src="https://zupimages.net/up/22/45/y499.jpg" align="center" width="50%" alt="validator w3C menu2"  /></a>
 </p>
 
 **menu_a_la_francaise.html**
 
 <p align="center">
-  <img align="center" width="50%" alt="validator w3C menu3" src="https://zupimages.net/viewer.php?id=22/45/zp7z.jpg"/>
+<a href="https://zupimages.net/viewer.php?id=22/45/zp7z.jpg" target="blank"><img src="https://zupimages.net/up/22/45/zp7z.jpg" align="center" width="50%" alt="validator w3C menu3"  /></a>
 </p>
-<a href="https://zupimages.net/viewer.php?id=22/45/zp7z.jpg"><img src="https://zupimages.net/up/22/45/zp7z.jpg" align="center" width="50%" alt="validator w3C menu3"  /></a>
 
 **menu_le_delice_des_sens.html**
 
 <p align="center">
-  <img align="center" width="50%" alt="validator w3C menu4" src="https://zupimages.net/viewer.php?id=22/45/lgtr.jpg"/>
+<a href="https://zupimages.net/viewer.php?id=22/45/lgtr.jpg" target="blank"><img src="https://zupimages.net/up/22/45/lgtr.jpg" align="center" width="50%" alt="validator w3C menu4"  /></a>
 </p>
 
 
