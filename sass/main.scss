@@ -566,7 +566,7 @@
     .list_menu_btn:hover {
         width: 100px;
         background: $tertiary_color;
-        transition: 0.6s;
+        transition: 1s;
         .list_menu_btn_icon {
             @include height_width(auto, 20px);
             font-size: 20px;
@@ -637,16 +637,6 @@
                 }
             }
         }
-        .footer {
-            &_desktop {
-                max-width: 1240px;
-                margin: auto;
-            }
-        }
-    }
-    
-    //MEDIA FOR LIMIT DESKTOP XL
-    @media only screen and (min-width: $desktop_xl) {
         .bloc {
             &_restaurant {
                 &_menus {
@@ -657,6 +647,12 @@
                         width: 33%;
                     }
                 }
+            }
+        }
+        .footer {
+            &_desktop {
+                max-width: 1240px;
+                margin: auto;
             }
         }
     }
